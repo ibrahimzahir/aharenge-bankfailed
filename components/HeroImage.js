@@ -28,6 +28,17 @@ function HeroImage() {
           <img loading="lazy" src="/bml5.jpg" />
         </div>
       </Carousel>
+      <div className="absolute bottom-12 left-0 w-full text-center">
+        <p className="text-white">APPLY AND WIN</p>
+        <button
+          className="text-gray-900 bg-white py-4 
+        px-14 rounded-full shadow-md font-bold mt-4
+         hover:shadow-xl hover:scale-105 transition 
+         duration-500 hover:bg-red-600 hover:text-white"
+        >
+          LEARN MORE
+        </button>
+      </div>
     </div>
   );
 }
