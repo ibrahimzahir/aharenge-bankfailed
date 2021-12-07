@@ -5,13 +5,13 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 
 function Header() {
   return (
-    <header
-      className="sticky top-0 z-50  grid grid-cols-2 bg-red-600
+    <nav
+      className="sticky top-0 z-50 flex flex-wrap w-full bg-red-600
      h-20 items-center"
     >
       <div className="h-12">
         <Image
-          className=" cursor-pointer transform rotate-180"
+          className="items-center cursor-pointer transform rotate-180"
           src="/bml-logo.svg"
           alt="bankofmaldives"
           objectFit="contain"
@@ -20,12 +20,12 @@ function Header() {
           height={60}
         />
       </div>
-      <div className="flex space-x-2 items-center justify-end pr-4">
+      <div className="items-center inline-flex lg:ml-auto lg:w-auto w-full justify-end pr-4">
         <SearchIcon className="hidden md:inline-flex h-8 text-gray-100" />
         <UserCircleIcon className="h-8  text-gray-100" />
         <ChevronDownIcon className="h-6 text-gray-100" />
       </div>
-    </header>
+    </nav>
   );
 }
 
