@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Bank of Maldives - Homepage</title>
-        <link rel="icon" href="/bml-logo.svg" />
+        <link rel="icon" href="/bml-logo-1.svg" />
       </Head>
       <TopHeader />
       <Header />

@@ -11,15 +11,16 @@ function Lnews() {
     },
     {
       src: "/outofservice.jpeg",
-      date: "28th November 2021",
-      name: "test",
-      description: "testestsee",
+      date: "03rd December 2021",
+      name: "Vagthuee Gothun Hidhumai medhukendifa",
+      description: "Vagthuee Gothun Hidhumai medhukendifa",
     },
     {
       src: "/accountbalancezero.png",
-      date: "27th July 2021",
-      name: "test",
-      description: "testestsee",
+      date: "29th November 2021",
+      name: "Abadhu technical error",
+      description:
+        "Due to a technical issue with our system upgrade, customers are facing intermittent interruptions to services. Please note that we are working to resolve the issue at the earliest. Thank you for your patience.",
     },
   ];
   return (
