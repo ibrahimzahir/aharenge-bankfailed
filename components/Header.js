@@ -21,7 +21,7 @@ function Header() {
         />
       </div>
       <div className="flex space-x-2 items-center justify-end pr-4">
-        <SearchIcon className="h-8 text-gray-100" />
+        <SearchIcon className="hidden md:inline-flex h-8 text-gray-100" />
         <UserCircleIcon className="h-8  text-gray-100" />
         <ChevronDownIcon className="h-6 text-gray-100" />
       </div>

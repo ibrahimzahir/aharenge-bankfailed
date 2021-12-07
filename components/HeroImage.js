@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function HeroImage() {
   return (
-    <div className="relative">
+    <div className="">
       <Carousel
         autoPlay
         infiniteLoop
@@ -12,20 +12,40 @@ function HeroImage() {
         showThumbs={false}
         interval={5000}
       >
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
-          <img loading="lazy" src="/bml1.png" />
+        <div className="">
+          <img
+            loading="lazy"
+            src="/bml1.png"
+            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+          />
         </div>
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px] ">
-          <img loading="lazy" src="/bml2.png" />
+        <div className="">
+          <img
+            loading="lazy"
+            src="/bml2.png"
+            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+          />
         </div>
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
-          <img loading="lazy" src="/bml3.png" />
+        <div className="">
+          <img
+            loading="lazy"
+            src="/bml3.png"
+            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+          />
         </div>
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
-          <img loading="lazy" src="/bml4.jpg" />
+        <div className="">
+          <img
+            loading="lazy"
+            src="/bml4.jpg"
+            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+          />
         </div>
-        <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
-          <img loading="lazy" src="/bml5.jpg" />
+        <div className="">
+          <img
+            loading="lazy"
+            src="/bml5.jpg"
+            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+          />
         </div>
       </Carousel>
       <div className=" sm:absolute sm:bottom-12 sm:left-40 text-center">
