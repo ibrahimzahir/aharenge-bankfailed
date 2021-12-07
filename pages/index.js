@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Header from "../components/Header";
 import HeroImage from "../components/HeroImage";
 import Lnews from "../components/Lnews";
@@ -9,10 +8,6 @@ import { ChevronRightIcon } from "@heroicons/react/outline";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Bank of Maldives - Homepage</title>
-        <link rel="icon" href="/bml-logo-1.svg" />
-      </Head>
       <TopHeader />
       <Header />
       <HeroImage />
