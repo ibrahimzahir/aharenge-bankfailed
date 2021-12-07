@@ -8,7 +8,7 @@ function News({ src, date, name, description }) {
      dark:bg-gray-800 dark:border-gray-700 hover:scale-105
      transition duration-700 ease-in-out"
     >
-      <div className="relative h-52 w-90 ">
+      <div className="relative h-80 w-100 sm:h-52 sm:w-90">
         <Image
           src={src}
           layout="fill"
@@ -17,7 +17,9 @@ function News({ src, date, name, description }) {
         />
       </div>
       <div class="p-5">
-        <p class=" text-red-500 tracking-tight mb-2 dark:text-white">{date}</p>
+        <p class="font-sm sm:font-normal text-red-500 tracking-tight mb-2 dark:text-white">
+          {date}
+        </p>
         <a href="#">
           <h5 class="text-gray-900 text tracking-tight mb-2 dark:text-white">
             {name}

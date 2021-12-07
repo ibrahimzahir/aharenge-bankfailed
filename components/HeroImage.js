@@ -16,47 +16,48 @@ function HeroImage() {
           <img
             loading="lazy"
             src="/bml1.png"
-            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]"
           />
         </div>
         <div className="">
           <img
             loading="lazy"
             src="/bml2.png"
-            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]"
           />
         </div>
         <div className="">
           <img
             loading="lazy"
             src="/bml3.png"
-            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]"
           />
         </div>
         <div className="">
           <img
             loading="lazy"
             src="/bml4.jpg"
-            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]"
           />
         </div>
         <div className="">
           <img
             loading="lazy"
             src="/bml5.jpg"
-            className="relative h-[400px] sm:h-[500px] lg:h-[500px] xl:h-[500px] 2xl:h-[500px]"
+            className="relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]"
           />
         </div>
       </Carousel>
-      <div className=" sm:absolute sm:bottom-12 sm:left-40 text-center">
-        <p className="text-white">HUS RIBAA</p>
+      <div className="absolute bottom-56 w-full  sm:w-32 sm:bottom-28 sm:left-36 text-center">
+        <p className="hidden sm:grid sm:text-white">HUS RIBAA</p>
         <button
-          className="text-gray-900 bg-white py-4 
-        px-14 rounded-full shadow-md font-bold mt-4
+          className="text-gray-900 bg-white py-3 
+        px-48 rounded-full shadow-md font-bold mt-4
          hover:shadow-xl hover:scale-105 transition 
-         duration-500 hover:bg-red-600 hover:text-white"
+         duration-500 hover:bg-red-600 hover:text-white
+          text-sm sm:px-10 sm:py-4"
         >
-          LEARN MORE
+          <p className="sm:w-32">LEARN MORE</p>
         </button>
       </div>
     </div>

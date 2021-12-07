@@ -16,10 +16,12 @@ export default function Home() {
       <TopHeader />
       <Header />
       <HeroImage />
-      <main className="container mx-auto px-16">
-        <section className="col-2 py-10">
-          <div className="flex items-center justify-between">
-            <h2 className="text-5xl m-2 font-black pt-5">Latest News</h2>
+      <main className="max-w-8xl px-8 sm:px-36">
+        <section className="py-10">
+          <div className="flex col-2 items-center justify-between">
+            <h2 className="text-2xl sm:text-5xl m-2 font-black pt-5">
+              Latest News
+            </h2>
             <div className="flex items-center space-x-2 pt-6">
               <h2 className="text-sm text-red-500 cursor-pointer">VIEW ALL</h2>
               <ChevronRightIcon className="h-4 text-red-500 cursor-pointer" />
@@ -36,7 +38,7 @@ export default function Home() {
               layout="fixed"
               objectFit="cover"
               height={400}
-              width={650}
+              width={600}
               className="object-cover rounded-xl"
             />
             <div className="p-4">
