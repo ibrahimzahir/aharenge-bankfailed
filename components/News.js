@@ -3,7 +3,7 @@ import Image from "next/image";
 function News({ src, date, name, description }) {
   return (
     <div
-      class="bg-white shadow-xl  
+      className="bg-white shadow-xl  
     border-gray-200 rounded-xl max-w-sm
      dark:bg-gray-800 dark:border-gray-700 hover:scale-105
      transition duration-700 ease-in-out"
@@ -16,12 +16,18 @@ function News({ src, date, name, description }) {
           className="object-cover rounded-t-xl"
         />
       </div>
-      <div class="p-5">
-        <p class="font-sm sm:font-normal text-red-500 tracking-tight mb-2 dark:text-white">
+      <div className="p-5">
+        <p
+          className="font-sm sm:font-normal text-red-500 
+        tracking-tight mb-2 dark:text-white"
+        >
           {date}
         </p>
         <a href="#">
-          <h5 class="text-gray-900 text tracking-tight mb-2 dark:text-white">
+          <h5
+            className="text-gray-900 text tracking-tight
+           mb-2 dark:text-white"
+          >
             {name}
           </h5>
         </a>

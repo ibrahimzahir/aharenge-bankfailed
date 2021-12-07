@@ -64,6 +64,40 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="py-4">
+          <div className="grid grid-cols-2 gap-4 space-x-20">
+            <Image
+              src="/bankofmaldives.png"
+              layout="fixed"
+              objectFit="cover"
+              height={400}
+              width={600}
+              className="object-cover rounded-xl"
+            />
+            <div className="p-4">
+              <h2 className="text-3xl font-bold leading-normal pb-6">
+                Bank anytime, anywhere. Ekam Abadhu Massala Jehifa
+              </h2>
+              <h2 className="py-2 text-xl font-bold leading-loose">
+                What's new?
+              </h2>
+              <p className="py-2 leading-loose">
+                We’ve launched our mobile banking app with a new look and extra
+                features for a convenient, fast and secure banking experience.
+              </p>
+              <div className="py-8">
+                <button
+                  className="bg-transparent text-red-600 
+                font-semibold  py-2 px-8 border-2
+              border-red-600  rounded-full 
+              transition duration-500 ease-in-out hover:scale-110"
+                >
+                  LEARN MORE
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
