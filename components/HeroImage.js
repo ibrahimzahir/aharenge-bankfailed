@@ -28,8 +28,8 @@ function HeroImage() {
           <img loading="lazy" src="/bml5.jpg" />
         </div>
       </Carousel>
-      <div className="absolute bottom-12 left-0 w-full text-center">
-        <p className="text-white">APPLY AND WIN</p>
+      <div className=" sm:absolute sm:bottom-12 sm:left-40 text-center">
+        <p className="text-white">HUS RIBAA</p>
         <button
           className="text-gray-900 bg-white py-4 
         px-14 rounded-full shadow-md font-bold mt-4

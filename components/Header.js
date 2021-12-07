@@ -6,7 +6,7 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 function Header() {
   return (
     <header
-      className="sticky top-0 grid grid-cols-2 bg-red-600
+      className="sticky top-0 z-50  grid grid-cols-2 bg-red-600
      h-20 items-center"
     >
       <div className="h-12">
