@@ -1,6 +1,6 @@
 function TopHeader() {
   return (
-    <div className="hidden md:grid grid-cols-7 divide-x divide-gray-300">
+    <div className="hidden sm:grid grid-cols-7 divide-x divide-gray-300">
       <div className="text-xs p-4 text-red-500 font-bold text-center">
         SCHEDULE OF CHARGES
       </div>
