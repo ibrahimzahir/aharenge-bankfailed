@@ -26,7 +26,7 @@ export default function Home() {
             <Lnews />
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-20 hover:animate-fade-in-up">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/personal.webp"
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-20 hover:animate-fade-in-up">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <div>
               <h2 className="text-3xl font-bold leading-normal pb-6">
@@ -93,7 +93,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className="py-20">
+        <section className="py-20 hover:animate-fade-in-up">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/bankofmaldives.png"
