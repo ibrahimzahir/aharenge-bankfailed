@@ -52,7 +52,7 @@ function HeroImage() {
         <p className="hidden sm:grid sm:text-white">HUS RIBAA</p>
         <button
           className="text-gray-900 bg-white py-3 
-        px-48 rounded-full shadow-md font-bold mt-4
+        px-42 rounded-full shadow-md font-bold mt-4
          hover:shadow-xl hover:scale-105 transition 
          duration-500 hover:bg-red-600 hover:text-white
           text-sm sm:px-10 sm:py-4"
