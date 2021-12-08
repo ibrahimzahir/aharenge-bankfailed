@@ -11,7 +11,7 @@ export default function Home() {
       <TopHeader />
       <Header />
       <HeroImage />
-      <main className="max-w-8xl px-8 sm:px-36">
+      <main className="max-w-8xl px-4 sm:px-36">
         <section className="py-10">
           <div className="flex col-2 items-center justify-between">
             <h2 className="text-2xl sm:text-5xl m-2 font-black pt-5">
@@ -44,7 +44,7 @@ export default function Home() {
               <p className="py-2 leading-loose">
                 We have made positive changes to its BML Islamic Personal
                 Financing portfolio to allow the option of cash financing in
-                addition to the purchase of goods and services.
+                addition to the purchase of goods and services. ha ha ha
               </p>
               <div className="py-8">
                 <button
