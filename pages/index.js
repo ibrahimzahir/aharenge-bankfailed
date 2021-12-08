@@ -27,13 +27,13 @@ export default function Home() {
           </div>
         </section>
         <section className="py-4">
-          <div className="grid grid-cols-2 gap-4 space-x-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/personal.webp"
               layout="fixed"
               objectFit="cover"
-              height={400}
-              width={600}
+              height={100}
+              width={200}
               className="object-cover rounded-xl"
             />
             <div className="p-4">
@@ -60,13 +60,13 @@ export default function Home() {
           </div>
         </section>
         <section className="py-4">
-          <div className="grid grid-cols-2 gap-4 space-x-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/bankofmaldives.png"
               layout="fixed"
               objectFit="cover"
-              height={400}
-              width={600}
+              height={200}
+              width={100}
               className="object-cover rounded-xl"
             />
             <div className="p-4">
