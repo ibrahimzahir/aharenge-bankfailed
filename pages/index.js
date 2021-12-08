@@ -30,10 +30,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/personal.webp"
-              layout="fixed"
+              layout="responsive"
               objectFit="cover"
-              height={100}
-              width={200}
+              height="60%"
+              width="100%"
               className="object-cover rounded-xl"
             />
             <div className="p-4">
@@ -63,10 +63,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <Image
               src="/bankofmaldives.png"
-              layout="fixed"
+              layout="responsive"
               objectFit="cover"
-              height={200}
-              width={100}
+              height="60%"
+              width="100%"
               className="object-cover rounded-xl"
             />
             <div className="p-4">

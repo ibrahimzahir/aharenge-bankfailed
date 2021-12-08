@@ -4,7 +4,7 @@ function News({ src, date, name, description }) {
   return (
     <div
       className="bg-white shadow-xl  
-    border-gray-200 rounded-xl max-w-sm my-4
+    border-gray-200 rounded-xl max-w-sm my-3
      dark:bg-gray-800 dark:border-gray-700 hover:scale-105
      transition duration-700 ease-in-out"
     >
