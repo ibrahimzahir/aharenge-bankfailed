@@ -18,10 +18,7 @@ function Footer() {
       </div>
       <div className="hidde sm:divide-y sm:divide-gray-400 px-32 py-4">
         <div className="container auto sm:pl-32 "></div>
-        <div className="text-gray-200 text-sm py-5 px-14">
-          {" "}
-          © Aharengge Bank
-        </div>
+        <div className="text-gray-200 text-sm py-5 px-4"> © Aharengge Bank</div>
       </div>
     </div>
   );
