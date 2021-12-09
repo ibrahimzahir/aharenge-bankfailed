@@ -1,18 +1,26 @@
 function Footer() {
   return (
-    <div className="bg-black py-6">
+    <div className="bg-black py-6 ">
       <div
         className="container md:auto sm:pl-24 grid grid-cols-1 sm:grid-cols-6
-     sm:divide-x sm:grid-white space-x-6 items-center space-y-10"
+     sm:divide-x sm:grid-white space-x-6 items-center "
       >
-        <div className="text-gray-400 text-xs text-center">WORK WITH US</div>
-        <div className="text-gray-400 text-xs text-center">FIND US</div>
-        <div className="text-gray-400 text-xs text-center">
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
+          WORK WITH US
+        </div>
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
+          FIND US
+        </div>
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
           FRAUD PREVENTION
         </div>
-        <div className="text-gray-400 text-xs text-center">REGULATIONS</div>
-        <div className="text-gray-400 text-xs text-center">FAQ</div>
-        <div className="text-gray-400 text-xs text-center">
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
+          REGULATIONS
+        </div>
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
+          FAQ
+        </div>
+        <div className="text-gray-400 text-xs text-center py-4 sm:py-0">
           PRIVACY STATEMENT
         </div>
       </div>
