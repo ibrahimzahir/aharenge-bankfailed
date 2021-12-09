@@ -64,11 +64,9 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
             <div>
               <h2 className="text-3xl font-bold leading-normal pb-6">
-                Bank anytime, anywhere. Ekam Abadhu Massala Jehifa
+                Banking services via branches & service centers
               </h2>
-              <h2 className="py-2 text-xl font-bold leading-loose">
-                What's new?
-              </h2>
+
               <p className="py-2 leading-loose">
                 All our branches and service centres will be open on Sunday to
                 Thursday from 08:30am to 2:00pm. Selected service centres in

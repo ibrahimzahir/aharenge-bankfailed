@@ -16,8 +16,9 @@ function Footer() {
           PRIVACY STATEMENT
         </div>
       </div>
-      <div className="container md:auto pl-32">
-        <div className="text-gray-100 text-sm">Aharengge Bank</div>
+      <div className="divide-y divide-gray-400 px-32 py-4">
+        <div className="container auto pl-32"></div>
+        <div className="text-gray-200 text-sm py-5"> © Aharengge Bank</div>
       </div>
     </div>
   );
