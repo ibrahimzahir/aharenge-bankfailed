@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <title>Bank of Maldives - Homepage</title>
         <link rel="icon" href="/bml-logo-1.svg" />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   );
 }

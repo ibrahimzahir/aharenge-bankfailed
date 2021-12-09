@@ -3,6 +3,7 @@ import HeroImage from "../components/HeroImage";
 import Lnews from "../components/Lnews";
 import Image from "next/image";
 import TopHeader from "../components/TopHeader";
+import Footer from "../components/Footer";
 import { ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Home() {
@@ -69,8 +70,10 @@ export default function Home() {
                 What's new?
               </h2>
               <p className="py-2 leading-loose">
-                We’ve launched our mobile banking app with a new look and extra
-                features for a convenient, fast and secure banking experience.
+                All our branches and service centres will be open on Sunday to
+                Thursday from 08:30am to 2:00pm. Selected service centres in
+                Male’ City will be open through pre-booked appointments, for
+                services not available via online or self-service banking
               </p>
               <div className="py-8">
                 <button
@@ -84,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <Image
-              src="/bankofmaldives.png"
+              src="/dhevvadhooatm.jpg"
               layout="responsive"
               objectFit="cover"
               height="60%"
@@ -128,6 +131,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
