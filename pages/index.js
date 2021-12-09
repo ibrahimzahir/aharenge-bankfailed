@@ -27,8 +27,8 @@ export default function Home() {
             <Lnews />
           </div>
         </section>
-        <section className="py-20 hover:animate-fade-in-up">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
+        <section className="sm:py-20 hover:animate-fade-in-up">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:space-x-20">
             <Image
               src="/personal.webp"
               layout="responsive"
@@ -50,8 +50,8 @@ export default function Home() {
               <div className="py-8">
                 <button
                   className="bg-transparent text-red-600 
-                font-semibold  py-2 px-8 border-2
-              border-red-600  rounded-full 
+                font-semibold py-2 px-8 border-2
+              border-red-600 rounded-full 
               transition duration-500 ease-in-out hover:scale-110"
                 >
                   LEARN MORE
@@ -60,8 +60,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20 hover:animate-fade-in-up">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
+        <section className="sm:py-20 hover:animate-fade-in-up">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:space-x-20">
             <div>
               <h2 className="text-3xl font-bold leading-normal pb-6">
                 Banking services via branches & service centers
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </section>
         <section className="py-20 hover:animate-fade-in-up">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 space-x-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:space-x-20">
             <Image
               src="/bankofmaldives.png"
               layout="responsive"
@@ -115,7 +115,7 @@ export default function Home() {
                 We’ve launched our mobile banking app with a new look and extra
                 features for a convenient, fast and secure banking experience.
               </p>
-              <div className="py-8">
+              <div className="sm:py-8">
                 <button
                   className="bg-transparent text-red-600 
                 font-semibold  py-2 px-8 border-2
