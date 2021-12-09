@@ -37,7 +37,7 @@ export default function Home() {
               width="100%"
               className="object-cover rounded-xl"
             />
-            <div className="p-4">
+            <div className="py-4">
               <h2 className="text-3xl font-bold leading-normal">
                 Positive changes to Namun Islamic, Kamun Haraan BML Islamic
                 Personal Financing
@@ -106,7 +106,7 @@ export default function Home() {
               width="100%"
               className="object-cover rounded-xl"
             />
-            <div className="p-4">
+            <div className="py-4">
               <h2 className="text-3xl font-bold leading-normal pb-6">
                 Bank anytime, anywhere. Ekam Abadhu Massala Jehifa
               </h2>
