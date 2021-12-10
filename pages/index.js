@@ -1,16 +1,14 @@
-import Header from "../components/Header";
 import HeroImage from "../components/HeroImage";
 import Lnews from "../components/Lnews";
+import Link from "next/link";
 import Image from "next/image";
-import TopHeader from "../components/TopHeader";
+
 import Footer from "../components/Footer";
 import { ChevronRightIcon } from "@heroicons/react/outline";
 
 export default function Home() {
   return (
     <div>
-      <TopHeader />
-      <Header />
       <HeroImage />
       <main className="max-w-8xl px-4 sm:px-36">
         <section className="py-10">
@@ -116,14 +114,16 @@ export default function Home() {
                 features for a convenient, fast and secure banking experience.
               </p>
               <div className="sm:py-8">
-                <button
-                  className="bg-transparent text-red-600 
+                <Link href="/pmain">
+                  <button
+                    className="bg-transparent text-red-600 
                 font-semibold  py-2 px-8 border-2
               border-red-600  rounded-full 
               transition duration-500 ease-in-out hover:scale-110"
-                >
-                  LEARN MORE
-                </button>
+                  >
+                    LEARN MORE
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
