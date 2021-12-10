@@ -101,7 +101,7 @@ function pmain() {
       >
         <Image src="/bankofmaldives.png" layout="fill" objectFit="cover" />
       </div>
-      <main className="max-w-8xl px-28">
+      <main className="max-w-8xl sm:px-28">
         <section className="my-12">
           <h2 className="text-2xl py-12">Maintainance Notice</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
