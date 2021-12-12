@@ -6,9 +6,9 @@ function Maint({ key, src, date, details }) {
       className="bg-white shadow-xl  
     border-gray-200 rounded-xl max-w-sm my-3
      dark:bg-gray-800 dark:border-gray-700 hover:scale-105
-     transition duration-700 ease-in-out"
+     transition duration-700 ease-in-out "
     >
-      <div className="relative h-80 w-full sm:h-30">
+      <div className="relative h-80 w-full sm:h-30 ">
         <Image
           src={src}
           layout="fill"

@@ -26,7 +26,7 @@ function Lnews() {
   return (
     <div
       className="grid grid-cols-1 sm:grid-cols-3 
-  lg:grid-cols-3 xl:grid-cols-3 sm:space-x-6"
+  lg:grid-cols-3 xl:grid-cols-3 sm:space-x-6 cursor-pointer"
     >
       {lnews?.map((news) => (
         <News
