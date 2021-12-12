@@ -99,7 +99,7 @@ function pmain() {
         className="relative h-[300px] sm:h-[400px]
      lg:h-[500px] xl:h-[600px] 2xl:h-[700px]"
       >
-        <Image src="/bankofmaldives.png" layout="fill" objectFit="cover" />
+        <Image src="/mamode.png" layout="fill" objectFit="cover" />
       </div>
       <main className="max-w-8xl px-4 sm:px-28">
         <section className="my-12">
